@@ -113,7 +113,7 @@ services without asking Gene.
 
 ## Releasing
 
-Not set up yet. When it is, same as Chickens: a private GitHub repo, its own Amplify app in the
-Entertainment AWS account at `lights.thefunshed.com`, every push to `main` a release. `amplify.yml`
+Open source (MIT, see `LICENSE`): a public GitHub repo, GeneArnold/lights-out, with its own
+Amplify app in the Entertainment AWS account at `lights.thefunshed.com`, every push to `main` a release. `amplify.yml`
 and the NEW VERSION button are already in place. Scores stay on the phone until the app is added to
 the Shed service (`scoresUrl` in `js/config.js`).
