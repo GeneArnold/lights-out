@@ -1,0 +1,50 @@
+/* The game fills the screen; the page itself never scrolls, zooms or selects text. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #0b1433;
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  position: fixed;
+  inset: 0;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* The game is played sideways. A phone held upright gets this instead of a tiny game. */
+#turn {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: #0b1433;
+  color: #ffe066;
+  font: bold 26px "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#turn .phone {
+  font-size: 80px;
+  animation: turn 1.8s ease-in-out infinite;
+}
+
+@keyframes turn {
+  0%, 25% { transform: rotate(0deg); }
+  60%, 100% { transform: rotate(-90deg); }
+}
+
+@media (orientation: portrait) and (pointer: coarse) {
+  #turn {
+    display: flex;
+  }
+}

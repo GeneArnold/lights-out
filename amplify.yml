@@ -1,0 +1,29 @@
+# Amplify Hosting: every push to main publishes the game. There is no real build; this copies the
+# game's files into dist/ (leaving out tools/ and docs) and stamps the commit into the
+# offline cache version in sw.js, so installed phones fetch the new release on their next visit.
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - mkdir -p dist
+        - cp -r index.html style.css manifest.webmanifest sw.js vendor js sayings icons img dist/
+        - sed -i "s/lights-dev/lights-$(echo "$AWS_COMMIT_ID" | cut -c1-12)/" dist/sw.js
+        - grep -q 'lights-dev' dist/sw.js && echo "sw.js VERSION was not stamped" && exit 1 || true
+        # The version the title screen shows, and version.json, which tells installed copies a newer one is out.
+        - ID=$(echo "$AWS_COMMIT_ID" | cut -c1-12); BUILT="$(TZ=America/New_York date '+%b %-d, %-I:%M%p')"; sed -i "s/VERSION = \"dev\"/VERSION = \"$ID\"/; s/BUILT = \"\"/BUILT = \"$BUILT\"/" dist/js/version.js; echo "{\"version\":\"$ID\",\"built\":\"$BUILT\"}" > dist/version.json
+        - grep -q '"dev"' dist/js/version.js && echo "version.js was not stamped" && exit 1 || true
+  artifacts:
+    baseDirectory: dist
+    files:
+      - "**/*"
+  customHeaders:
+    # Phones must always check for a new service worker, or a release never reaches them.
+    - pattern: "sw.js"
+      headers:
+        - key: Cache-Control
+          value: no-cache
+    - pattern: "version.json"
+      headers:
+        - key: Cache-Control
+          value: no-cache

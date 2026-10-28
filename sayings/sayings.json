@@ -1,0 +1,361 @@
+{
+  "_about": "Dad's lines. Each kind is a list; the game picks one at random. A line with \"voiced\": true also plays sayings/voices/<id>.mp3. {score} and {night} are filled in.",
+  "title": [
+    {
+      "id": "title-1",
+      "text": "This year we're having the brightest house on the block!"
+    }
+  ],
+  "night": [
+    {
+      "id": "night-1",
+      "text": "One little strand on the porch. How hard can it be?",
+      "voiced": true
+    },
+    {
+      "id": "night-2",
+      "text": "Up the ladder we go! Nice and quiet. Don't wake Grandma...",
+      "voiced": true
+    },
+    {
+      "id": "night-3",
+      "text": "All the way up to the roof tonight. And I hear we've got a squirrel.",
+      "voiced": true
+    },
+    {
+      "id": "night-4",
+      "text": "Somebody let the dog out. Keep an eye on my bulbs!",
+      "voiced": true
+    },
+    {
+      "id": "night-5",
+      "text": "That kid next door has been making snowballs all day. I just know it.",
+      "voiced": true
+    },
+    {
+      "id": "night-again",
+      "text": "Same house, same lights. Faster bulbs. I can do this!",
+      "voiced": true
+    }
+  ],
+  "huh": [
+    {
+      "id": "huh-1b",
+      "text": "Wait. What?",
+      "voiced": true
+    },
+    {
+      "id": "huh-2",
+      "text": "Oh, come ON!",
+      "voiced": true
+    },
+    {
+      "id": "huh-3",
+      "text": "The switch! It's the switch!",
+      "voiced": true
+    }
+  ],
+  "lights-on": [
+    {
+      "id": "on-1",
+      "text": "BEHOLD!",
+      "voiced": true
+    },
+    {
+      "id": "on-2",
+      "text": "Now THAT'S Christmas!",
+      "voiced": true
+    },
+    {
+      "id": "on-3",
+      "text": "Ho ho HO!",
+      "voiced": true
+    }
+  ],
+  "swap": [
+    {
+      "id": "swap-1",
+      "text": "Got it!",
+      "voiced": true
+    },
+    {
+      "id": "swap-2",
+      "text": "Easy peasy.",
+      "voiced": true
+    },
+    {
+      "id": "swap-3",
+      "text": "Righty tighty!",
+      "voiced": true
+    },
+    {
+      "id": "swap-4",
+      "text": "And... let there be light.",
+      "voiced": true
+    }
+  ],
+  "close": [
+    {
+      "id": "close-1",
+      "text": "Whew! That was close!",
+      "voiced": true
+    },
+    {
+      "id": "close-2",
+      "text": "Just in the nick of time!",
+      "voiced": true
+    }
+  ],
+  "empty": [
+    {
+      "id": "empty-1",
+      "text": "Out of bulbs! To the box!",
+      "voiced": true
+    },
+    {
+      "id": "empty-2",
+      "text": "Bag's empty!",
+      "voiced": true
+    }
+  ],
+  "out": [
+    {
+      "id": "out-1",
+      "text": "NOOO! Not again!",
+      "voiced": true
+    },
+    {
+      "id": "out-2",
+      "text": "Why does this always happen to me?!",
+      "voiced": true
+    },
+    {
+      "id": "out-3",
+      "text": "Who keeps popping my bulbs?!",
+      "voiced": true
+    }
+  ],
+  "grandma": [
+    {
+      "id": "grandma-1",
+      "text": "BURGLAR! BURGLAR!",
+      "voiced": true
+    },
+    {
+      "id": "grandma-2",
+      "text": "Get off my porch, you hooligan!",
+      "voiced": true
+    },
+    {
+      "id": "grandma-3",
+      "text": "I've got a rolling pin and I know how to use it!",
+      "voiced": true
+    }
+  ],
+  "knocked": [
+    {
+      "id": "knocked-1",
+      "text": "It's me, Grandma! It's ME!",
+      "voiced": true
+    },
+    {
+      "id": "knocked-2",
+      "text": "Ow. Merry Christmas to me.",
+      "voiced": true
+    },
+    {
+      "id": "knocked-3",
+      "text": "I'm okay! Nobody panic!",
+      "voiced": true
+    }
+  ],
+  "cat-block": [
+    {
+      "id": "cat-block-1",
+      "text": "Shoo, cat! You're in the way!",
+      "voiced": true
+    },
+    {
+      "id": "cat-block-2",
+      "text": "Move it, furball!",
+      "voiced": true
+    },
+    {
+      "id": "cat-block-3",
+      "text": "That cat's sitting right on my bulbs!",
+      "voiced": true
+    }
+  ],
+  "shoo-cat": [
+    {
+      "id": "shoo-cat-1",
+      "text": "SCAT!",
+      "voiced": true
+    },
+    {
+      "id": "shoo-cat-2",
+      "text": "Go on, git!",
+      "voiced": true
+    }
+  ],
+  "shoo-squirrel": [
+    {
+      "id": "shoo-squirrel-1",
+      "text": "Get off my wires, you rodent!",
+      "voiced": true
+    },
+    {
+      "id": "shoo-squirrel-2",
+      "text": "Beat it, bushy-tail!",
+      "voiced": true
+    }
+  ],
+  "shoo-dog": [
+    {
+      "id": "shoo-dog-1",
+      "text": "No! Bad dog! Not the bulbs!",
+      "voiced": true
+    },
+    {
+      "id": "shoo-dog-2",
+      "text": "Sit! Stay! ...Go away!",
+      "voiced": true
+    }
+  ],
+  "shoo-snowball": [
+    {
+      "id": "shoo-snowball-1",
+      "text": "HEY! I see you, kid!",
+      "voiced": true
+    },
+    {
+      "id": "shoo-snowball-2",
+      "text": "Don't you even think about it!",
+      "voiced": true
+    }
+  ],
+  "dog-coming": [
+    {
+      "id": "dog-coming-1",
+      "text": "Uh oh. Here comes the dog.",
+      "voiced": true
+    }
+  ],
+  "dog-stole": [
+    {
+      "id": "dog-stole-1",
+      "text": "HEY! That's my bulbs!",
+      "voiced": true
+    },
+    {
+      "id": "dog-stole-2",
+      "text": "Come back here with those!",
+      "voiced": true
+    }
+  ],
+  "dog-chase": [
+    {
+      "id": "dog-chase-1",
+      "text": "Come back here!",
+      "voiced": true
+    },
+    {
+      "id": "dog-chase-2",
+      "text": "Gimme those bulbs, you mutt!",
+      "voiced": true
+    }
+  ],
+  "dog-caught": [
+    {
+      "id": "dog-caught-1",
+      "text": "Gotcha! Good boy. BAD boy. Good boy.",
+      "voiced": true
+    },
+    {
+      "id": "dog-caught-2",
+      "text": "Ha! Nobody outruns this dad!",
+      "voiced": true
+    }
+  ],
+  "dog-gone": [
+    {
+      "id": "dog-gone-1",
+      "text": "Well, there go my bulbs.",
+      "voiced": true
+    }
+  ],
+  "snowball-hit": [
+    {
+      "id": "snowball-hit-1",
+      "text": "AUGH! Right in the kisser!",
+      "voiced": true
+    },
+    {
+      "id": "snowball-hit-2",
+      "text": "Snowball! Who threw that?!",
+      "voiced": true
+    }
+  ],
+  "kid-ask": [
+    {
+      "id": "kid-ask-1",
+      "text": "Hey sport! Give your old man a hand?",
+      "voiced": true
+    },
+    {
+      "id": "kid-ask-2",
+      "text": "Want to check the bulbs with me, kiddo?",
+      "voiced": true
+    }
+  ],
+  "kid-watch": [
+    {
+      "id": "kid-watch-1",
+      "text": "Ooh... look at the time!",
+      "voiced": true
+    },
+    {
+      "id": "kid-watch-2",
+      "text": "Gotta go. Homework. On break.",
+      "voiced": true
+    }
+  ],
+  "midnight": [
+    {
+      "id": "midnight-1",
+      "text": "Merry Christmas, neighborhood!",
+      "voiced": true
+    },
+    {
+      "id": "midnight-2",
+      "text": "Still burning! Who's the man?",
+      "voiced": true
+    }
+  ],
+  "gameover": [
+    {
+      "id": "gameover-1",
+      "text": "Where's the aspirin...",
+      "voiced": true
+    },
+    {
+      "id": "gameover-2",
+      "text": "Maybe next year we'll just do a wreath.",
+      "voiced": true
+    }
+  ],
+  "trash": [
+    {
+      "id": "trash-1",
+      "text": "I kept the house lit for {score} points. Your house is still dark."
+    },
+    {
+      "id": "trash-2",
+      "text": "{score} points and I made it to night {night}. Bring a ladder."
+    },
+    {
+      "id": "trash-3",
+      "text": "My lights scored {score}. Yours couldn't light a birthday cake."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.DS_Store
+
+# reference pictures (the movie poster) stay on this computer
+art/**/*.jpg
+art/**/*.jpeg
+art/source/
+sayings/.raw.wav
+sayings/voice-samples/
